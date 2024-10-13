@@ -551,7 +551,9 @@ a {
   overflow: hidden;
   width: auto;
 }
-
+.media-body .thumbnail {
+  width: 100%;
+}
 .middle .media-left,
 .middle .media-right,
 .middle .media-body {
