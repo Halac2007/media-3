@@ -1,5 +1,5 @@
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -142,7 +142,7 @@ header {
   position: relative;
 }
 .notify:before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #3a6df0;
   width: 6px;
@@ -289,7 +289,7 @@ header {
 }
 
 .notification-container:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   right: 0;
@@ -722,7 +722,7 @@ hr {
 
 .slider:before {
   position: absolute;
-  content: '';
+  content: "";
   height: 24px;
   width: 24px;
   left: 4px;
@@ -831,7 +831,7 @@ input:checked + .slider:before {
   margin: 6px 0 4px 0;
 }
 .page-interested .inter-title h2::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 5px;
   left: 5px;
@@ -1070,7 +1070,14 @@ ul {
   padding: 0px 20px 20px 20px;
   color: #990000;
 }
-
+@media (min-width: 1441px) and (max-width: 2560px) {
+  iframe {
+    height: 700px;
+  }
+  .item-news-thumb {
+    width: 350px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   iframe {
     height: 450px;
